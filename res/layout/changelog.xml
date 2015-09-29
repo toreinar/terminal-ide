@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_weight="1"
+              android:orientation="vertical" >
+
+    <TextView android:id="@+id/help_title"
+                  android:gravity="center"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingTop="10dip"
+                  android:paddingBottom="10dip"
+                  android:textSize="22dip"
+                  android:text="Change Log"/>
+
+    <ScrollView android:id="@+id/help_scrollview"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+
+    <TextView android:id="@+id/mixer_deck1_text"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:text=
+"\n
+v1.2 - Recommend OVERWRITE ALL install\n
+     - MIDNIGHT COMMANDER 4.8, with most VFS systems installed. I have tested ftp. Works fine.\n
+     - NEW .bashrc required for Midnight Commander to function properly\n
+     - Soft Keyboard F1-F4 now work.\n
+     - Few tweaks to .vimrc\n
+\n
+\n
+v1.0 - Initial Release\n
+     - Terminal IDE Soft Keyboard v1.0\n
+     - Hacked Up JackPal Terminal Emulator\n
+     - busybox 1.19.2\n
+     - bash 4.2\n
+     - vim 7.3 (nicely setup with java auto-completion..)\n
+     - javac, java, dx, apkbuilder, aapt\n
+     - dropbear keygen / sshd / ssh\n
+     - utelnetd\n
+     - Normal folder structure\n
+     - With basic setup of ~/.vimrc and ~/.bashrc\n
+     - Best of all, *NO ROOT REQUIRED*!!\n
+     - All works as normal user..\n
+" />
+
+</ScrollView>
+
+</LinearLayout>
